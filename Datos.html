@@ -629,6 +629,70 @@
             </div>
         </div>
     </div>
+     <!-- Sección de Louis Vuitton -->
+     <div class="catalog-section">
+        <h2 onclick="toggleDisplay('louisvuittonItems')">Louis Vuitton</h2>
+        <div class="catalog-items" id="louisvuittonItems">
+            <div class="catalog-item">
+                <label>Louis Vuitton Deportivos (170 mil)
+                    <input type="number" class="quantity-input" id="cantidadLouisDeportivos" value="0" min="0">
+                    <select class="size-input" id="tallaLouisDeportivos">
+                        <option value="">Talla</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                </label>
+            </div>
+            <div class="catalog-item">
+                <label>Louis Vuitton Caballero (150 mil)
+                    <input type="number" class="quantity-input" id="cantidadLouisCaballero" value="0" min="0">
+                    <select class="size-input" id="tallaLouisCaballero">
+                        <option value="">Talla</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                </label>
+            </div>
+            <div class="catalog-item">
+                <label>Louis Vuitton Skate (250 mil)
+                    <input type="number" class="quantity-input" id="cantidadLouisSkate" value="0" min="0">
+                    <select class="size-input" id="tallaLouisSkate">
+                        <option value="">Talla</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <button type="button" onclick="sendOrder()">Comprar</button>>
@@ -681,6 +745,9 @@
             {cantidad: 'cantidadPumadama1', talla: 'tallaPumadama1', nombre: 'Puma dama 1 (120 mil)'},
             {cantidad: 'cantidadPumaDhor', talla: 'tallaPumaDhor', nombre: 'Puma Dhor (130 mil)'},
             {cantidad: 'cantidadPumadama2', talla: 'tallaPumadama2', nombre: 'Puma dama 2 (120 mil)'},
+            {cantidad: 'cantidadLouisDeportivos', talla: 'tallaLouisDeportivos', nombre: 'Louis Vuitton Deportivos (170 mil)'},
+            {cantidad: 'cantidadLouisCaballero', talla: 'tallaLouisCaballero', nombre: 'Louis Vuitton Caballero (150 mil)'},
+            {cantidad: 'cantidadLouisSkate', talla: 'tallaLouisSkate', nombre: 'Louis Vuitton Skate (250 mil)'},
         ];
 
         items.forEach(item => {
@@ -706,5 +773,3 @@
 
 </body>
 </html>
-
-        
